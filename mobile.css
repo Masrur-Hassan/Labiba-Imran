@@ -8,6 +8,8 @@
 
     }
 
+
+
     /* btn color palate */
     a:active {
         color: #FD6E0A;
@@ -194,7 +196,7 @@
 
     .about-content {
         background-color: #ffffff;
-        width: 95%;
+        width: 90%;
 
         margin: 0 auto;
         align-content: center;
@@ -220,8 +222,9 @@
         display: grid;
         gap: 30px;
         grid-template-columns: repeat(1fr);
-        justify-content: space-between;
+        justify-content: center;
         margin-top: 30px;
+        align-items: center;
 
     }
 
@@ -307,7 +310,7 @@
         width: 100%;
         margin: 0 auto;
         gap: 50px;
-        justify-content: space-around;
+        justify-content: space-between;
 
     }
 
@@ -382,7 +385,7 @@
     }
 
     #footer-coloum {
-        padding: 130px 230px;
+        padding: 10px 20px;
 
         display: flex;
         flex-direction: column;
